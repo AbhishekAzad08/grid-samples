@@ -1,0 +1,38 @@
+#parent {
+    text-align:center;
+    background-color:rgb(108, 108, 150);
+    // height:150px;
+    // width:250px;
+    margin: auto;
+}
+.block {
+    height:100px;
+    width:200px;
+    text-align:left;
+}
+.center {
+    margin:auto;
+    //background-color:green;
+    align-items: center;
+    color: white;
+}
+.sections{
+    display: flex;
+  }
+  .column{
+    flex: 1;
+    padding: 24px;
+ 
+    h3 {
+      text-align: center;
+    }
+  }
+  .dataGrid{
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  .ag-header-cell-text {
+    text-align: center!important;
+    white-space: normal !important;
+    overflow-wrap: break-word;
+ }

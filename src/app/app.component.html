@@ -1,0 +1,5 @@
+<div class="dataGrid">
+  <ag-grid-angular #agGrid style="height: 630px; text-align:center;"  [gridOptions]="gridOptions" [rowSelection]="rowSelection"
+  [rowData]="eventData" class="ag-theme-alpine" (cellMouseOut)="onMouseLeave($event)" (rowClicked)="onRowClicked($event)" (gridReady)="onGridReady($event)" (selectionChanged)="onSelectionChanged($event)">
+  </ag-grid-angular>
+  </div>
